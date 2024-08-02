@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    &__logo{
+        width: 60px;
+        height: 70px;
+    }
+    &__section{
+        display: flex;
+    }
+
+    &__nav-links{
+        display: flex;
+        list-style-type: none;
+        gap: 25px;
+    }
+
+    &__nav-item{
+    text-decoration: none;
+    font-size:25px;
+    }
+}

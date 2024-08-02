@@ -1,0 +1,25 @@
+.header__button{
+    
+    &--primary{
+        width: 180px;
+        height: 50px;
+        background-color:$button-primary;
+        border: 2px solid grey;
+        font-size: 22px;
+        margin-right: 20px;
+        cursor: pointer;
+
+    }
+
+
+    &--secundary{
+        width: 180px;
+        height: 50px;
+        background-color:$button-secundary;
+        color: $text-secundary;
+        border: none;
+        font-size: 22px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+}
